@@ -7,7 +7,7 @@ import jakarta.persistence.Column;
 import java.math.BigDecimal;
 
 @Embeddable
-//@Serdeable
+@Serdeable
 public record Table1Key(
 
         @Column(name="KEY1")

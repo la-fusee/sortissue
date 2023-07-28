@@ -9,7 +9,7 @@ import jakarta.persistence.Table;
 import java.math.BigDecimal;
 
 @MappedEntity
-//@Serdeable
+@Serdeable
 @Table(
         name = "TABLE1"
 )
